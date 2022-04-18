@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <title>HOME PLATTER</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <link rel="stylesheet" href="T2style.css">
+    
+    </head>
+    <body>
+        <header class="header">
+            <div class="navbar">
+                <a href="#" style="color:gold;border-bottom:6px solid gold">Home</a>
+                <a href="#">How it works</a>
+                <a href="#">Contact us</a>
+                <a href="#">Our Customers</a>
+            </div>
+        </header>
+        <section class="home">
+            <div class="content">
+                <h1 align="center">Home Platter</h1>
+                <p id="p" align="center">feel the love of home in every bite</p>
+                <p align="center">We provide the best Indian authentic home made food and from the best home chefs
+                    around you.</p>
+                <a href="#" align="center" class="btn" >Download</a>
+                
+            </div>
+            <div class="footer">
+                <div class="sym1">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmGiyFSjLjQctKb8-sAoTQhsEt5ejMjbCeMQ&usqp=CAU">
+                    <p>100 % sanitized </p>
+                </div>
+                <div class="sym2">
+                    <img src="https://thumbs.dreamstime.com/b/express-delivery-service-logo-isolated-black-background-express-delivery-service-logo-isolated-black-background-simple-163934990.jpg">
+                    <p>Prompt & Lightning Fast deliveries</p>
+                </div>
+                <div class="sym3">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5GhkKZNIE0ZTjDrIk2O_58HP_Z00a_Z6Mjg&usqp=CAU">
+                    <p>Healthy Home Food</p>
+                </div>
+            </div>
+        </section>
+        <!--Our features starts-->
+        <section class="our_features">
+            <div id="h12"><h1  align="center">Our Features</h1></div> 
+            <div class="row">
+                <div class="column" style="background-color:white;">
+                  <img src="data:image/jpeg;base64,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" height="60%" width="75%"><br>
+                  <h2>Look Around!</h2><br>
+                  <p>Set location to find the 
+                    best from the chefs around</p>
+                </div>
+                <div class="column" style="background-color:white;">
+                  <img src="https://media.istockphoto.com/vectors/people-filling-online-survey-form-on-digital-tablet-hand-holds-tablet-vector-id878093642" height="60%" width="75%"><br>
+                  <h2>Choose from the best</h2><br>
+                  <p>Choose the from the best and
+                    set your preferred date and time of
+                    delivery.</p>
+                </div>
+                <div class="column" style="background-color:white;">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuHmMUtF81jhTxe_bdYGVm9bgpS0GWXb58dA&usqp=CAU" height="60%" width="75%"><br>
+                  <h2>Happy Home meal!</h2><br>
+                  <p>Enjoy the pure love of the 
+                    home made food straight 
+                    from kitchen</p>
+                </div>
+              </div>
+        </section>
+        <!--Our features ends-->
+        <!--aoubt us start-->
+        <div id="habout"><h1  align="center" style="color:gold;">About us</h1></div>
+        <div class="arow">
+            <div class="col c1">
+                <p><br><br>On average, homemade meals contain more vegetables,
+                    less carbohydrates, and less fat than any other meal.
+                    Study researchers also concluded that people who eat 
+                    homemade food also go less often to fast food chains. 
+                    So we at our best to serve you the best home made 
+                    food just for you.</p>
+                    <br><br>
+                <button id="abtn">Our Story</button>
+            </div>
+            <div class="col c2">
+                <img align="right" src="https://th.bing.com/th/id/OIP.tuyIhhGUVmqctg8IfieA9AHaE8?pid=ImgDet&rs=1" height="80%" width="80%">
+            </div>
+        </div>
+        <!--aoubt us start-->
+        <!--critics starts-->
+        <div id="hcritic"><h1  align="center" style="color:gold;">Our Customers are our critics</h1>
+        <!--********************************************-->
+        <div class="carousel" data-flickity='{ "wrapAround": true, "autoPlay": 1500, "imagesLoaded":true, "prevNextButtons": false}'>
+            <div class="carousel-cell">
+              <img class="w3-image" src="https://simpletexting.com/wp-content/uploads/2020/01/review-4.png">
+            </div>
+            <div class="carousel-cell">
+              <img class="w3-image" src="https://www.business2community.com/wp-content/uploads/2019/05/word-image-6.png">
+            </div>
+            <div class="carousel-cell">
+              <img class="w3-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPsd-scQ6MXX__KIpzzNvQ5sSGiDy9jsNmbbn2QMYaV1ghWjyq3oJ_TQILWpicAOOH2g&usqp=CAU">
+            </div>
+          </div>
+        </div>
+        <!--********************************************-->
+        <!--critics ends-->
+        <!--why starts-->
+        <div id="hwhy"><h1  align="center" style="color:gold;">Why Home Platter?</h1>
+        <div class="dwhy">
+            <p id="p1" align="center">That's because we are best at satisfying most essential requirements because we care for our customers.</p>
+            <div>
+                <div class="wflex">
+                    <div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2JzxBQ3Vxfa4cozeHKeDB39Yatt0T0sVNiw&usqp=CAU" hight="50%" width="60%">
+                    </div>
+                    <div>
+                        <h1  align="left" style="color:gold;">Sanitized Kitchens</h1>
+                        <p align="left">Kitchens are well sanitized and regular checks are done in regular intervals to be 100% clean and safe. The chefs are requested to clean their kitchen stations regularly.</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="wflex">
+                    <div>
+                        <h1  align="left" style="color:gold;margin-left:140px;">Fresh Vegetables and Meat</h1>
+                        <p align="left" style="margin-left:140px;">The Vegies and the meat are taken extra care where these are super fresh and there are no preservatives added to it. This is because our customer's health is our top priority</p>
+                    </div>
+                    <div>
+                        <img src="https://thumbs.dreamstime.com/b/pet-food-wooden-bowl-fresh-meat-bone-egg-vegetables-healthy-diet-carnivores-such-as-cats-dogs-138861808.jpg" hight="50%" width="60%" style="margin-right:0px;">
+                    </div>
+                    
+                </div>
+            </div>
+            <div>
+                <div class="wflex">
+                    <div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTBqt-NsVGnFnGTh7w6BYbTVEP0st3oZQbmA&usqp=CAU" hight="50%" width="60%">
+                    </div>
+                    <div>
+                        <h1  align="left" style="color:gold;">Balanced Spices</h1>
+                        <p align="left">The Spices added to the dishes are very balanced and as gentle as the love of home food and the one's which are used are of high graded.</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        </div>
+        <!--why ends-->
+        <div class="slider2">
+            <h1  align="center" style="color:gold;">Some of our experienced Home Chefs</h1>
+            <p align="center"> The dishes are prepared by the best home chefs in the town and every chef is directly given credit.
+                the transparency is maintained so that it gives ease for the users to order the dish or opt any plans</p>
+            <div class="carousel" data-flickity='{ "wrapAround": false, "autoPlay": 1500, "imagesLoaded":true, "prevNextButtons": false, "groupCells":3}'>
+            <div class="carousel-cell">
+              <img class="w3-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTieKfBMfad55rm62kuHFc8ghxVV4t39TrtOw&usqp=CAU" >
+              <div class="chef"><p>Chef Rahul</p></div>
+            </div>
+            <div class="carousel-cell">
+              <img class="w3-image" src="https://i.pinimg.com/736x/b7/91/c0/b791c07c2692132f521d4e18b621c664.jpg">
+              <div class="chef"><p>Chef Namitha</p></div>
+            </div>
+            <div class="carousel-cell">
+              <img class="w3-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzo3-_gs_xDjvskg_YxAv5qWMxaQKBjjvuRA&usqp=CAU" >
+              <div class="chef"><p>Chef Alex</p></div>
+            </div>
+            <div class="carousel-cell">
+                <img class="w3-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTieKfBMfad55rm62kuHFc8ghxVV4t39TrtOw&usqp=CAU" >
+                <div class="chef"><p>Chef Rahul</p></div>
+              </div>
+              <div class="carousel-cell">
+                <img class="w3-image" src="https://i.pinimg.com/736x/b7/91/c0/b791c07c2692132f521d4e18b621c664.jpg">
+                <div class="chef"><p>Chef Namitha</p></div>
+              </div>
+              <div class="carousel-cell">
+                <img class="w3-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzo3-_gs_xDjvskg_YxAv5qWMxaQKBjjvuRA&usqp=CAU">
+                <div class="chef"><p>Chef Alex</p></div>
+              </div>
+              <div class="carousel-cell">
+                <img class="w3-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTieKfBMfad55rm62kuHFc8ghxVV4t39TrtOw&usqp=CAU">
+                <div class="chef"><p>Chef Rahul</p></div>
+              </div>
+              <div class="carousel-cell">
+                <img class="w3-image" src="https://i.pinimg.com/736x/b7/91/c0/b791c07c2692132f521d4e18b621c664.jpg">
+                <div class="chef"><p>Chef Namitha</p></div>
+              </div>
+              <div class="carousel-cell">
+                <img class="w3-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzo3-_gs_xDjvskg_YxAv5qWMxaQKBjjvuRA&usqp=CAU">
+                <div class="chef"><p>Chef Alex</p></div>
+              </div>
+          </div>
+        
+        </div>
+        <!--food gallery-->
+        <div class="images">
+            <h1  align="center" style="color:gold;">Our Food <b style="Color:black;font-size:4rem;">Gallery</b></h1>
+            <div class="gallery">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCDgHPyEDBNVMXekhOjn0Vw_Kyc5Ci2JLirA&usqp=CAU">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGQzhMRLO1Gq7Ou_ioz2czs34EeB9AUsFggA&usqp=CAU">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ04X_O7M-ag-5jOS9uUZozr8eY00wlmPwB-w&usqp=CAU">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVIhMLI5B2L-5S5KtahTTrJY2XsHRLwZkekg&usqp=CAU">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYVEsFa0R7P5NS5A27RbkT-1kl20J3fwXx7w&usqp=CAU">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRARiU09abP4PP5Rf5MWQjRoWx3rQuE8l1Bvw&usqp=CAU">
+                
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTgsMOZkt_gvwZAWiqk26-um_9w8kz6Z1OtQ&usqp=CAU">
+                <div class="contain">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAOE6mqRf-DNpLI-dqb2oPA7n2mCCdZXs1XA&usqp=CAU">
+                    <div class="txt"><b style="color:white">+20 More</div>
+                </div>
+            </div>
+        </div>
+        <!--FAQ section-->
+        <section class="faq">
+            <h1  align="center" style="color:white;margin-bottom: 40px;">Frequently Asked Questions</h1>
+            
+            <div class="questions">
+               <div id="question">
+                   <b align="center">How is Home Platter different from other food apps?</b>
+                   
+                </div>
+                <div id="angle"><sub><i class="fa fa-angle-down"></i></sub></div>
+            </div>
+            <div class="questions">
+                <div id="question">
+                    <b align="center">What locations does Home platter service, at the moment?</b>
+                    
+                 </div>
+                 <div id="angle"><sub><i class="fa fa-angle-down"></i></sub></div>
+             </div>
+             <div class="questions">
+                <div id="question">
+                    <b align="center">Where is Home Platter's Registered and Head Office?</b>
+                    
+                 </div>
+                 <div id="angle"><sub><i class="fa fa-angle-down"></i></sub></div>
+             </div>
+             <div class="questions">
+                <div id="question">
+                    <b align="center">What modes of payment are acceptable ?</b>
+                    
+                 </div>
+                 <div id="angle"><sub><i class="fa fa-angle-down"></i></sub></div>
+             </div>
+             <div class="questions">
+                <div id="question">
+                    <b align="center">Can I order from 2 or more restaurants at the same time?</b>
+                    
+                 </div>
+                 <div id="angle"><sub><i class="fa fa-angle-down"></i></sub></div>
+             </div>
+             <div class="questions">
+                <div id="question">
+                    <b align="center">How is Home Platter dierent from other food apps?</b>
+                    
+                 </div>
+                 <div id="angle"><sub><i class="fa fa-angle-down"></i></sub></div>
+             </div>
+             <div class="questions">
+                <div id="question">
+                    <b align="center">Do you also deliver spoons and plates etc.?</b>
+                    
+                 </div>
+                 <div id="angle"><sub><i class="fa fa-angle-down"></i></sub></div>
+             </div>
+            
+
+        </section>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    </body>
+</html>
